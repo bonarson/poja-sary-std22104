@@ -15,7 +15,7 @@ Globals:
       SecurityGroupIds:
         - !Sub '{{resolve:ssm:/poja-sary/sg/id}}'
       SubnetIds:
-        - !Sub '{{resolve:ssm:/poja-say/subnet/private1/id}}'
+        - !Sub '{{resolve:ssm:/poja-sary/subnet/private1/id}}'
         - !Sub '{{resolve:ssm:/poja-sary/subnet/private2/id}}'
     Environment:
       Variables:

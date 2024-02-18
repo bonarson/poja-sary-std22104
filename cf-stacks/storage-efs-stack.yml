@@ -41,7 +41,7 @@ Resources:
     Type: AWS::EFS::MountTarget
     Properties:
       FileSystemId: !Ref Filesystem
-      SubnetId: !Sub '{{resolve:ssm:/poja-say/subnet/private1/id}}'
+      SubnetId: !Sub '{{resolve:ssm:/poja-sary/subnet/private1/id}}'
       SecurityGroups:
         - !Sub '{{resolve:ssm:/poja-sary/sg/id}}'
 
